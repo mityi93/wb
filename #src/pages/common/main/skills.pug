@@ -1,0 +1,15 @@
+.skills
+	.skills__container.container
+		.skills__block.grid 
+			.skills__block__my
+				h2.skills__block__my-title Мои навыки
+				ul.skills__progress
+					- for(var x = 0; x < 3; x++)
+						li(class="skills__progress-item")
+							p Adobe Photoshop
+							.progress
+								progress(value="75" max="100")
+								.progress-bg
+									.progress-bar
+			.skills__block-photo
+				img(src="img/photo.jpg", alt="")

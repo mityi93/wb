@@ -1,0 +1,16 @@
+.header {
+	padding-top: 20px;
+	background-color: #eeeff1;
+	background-size: 100%;
+
+	&__container {
+		align-items: center;
+	}
+
+	.logo {
+		grid-column: 5 span;
+	}
+}
+
+@import 'minscss/nav';
+@import 'minscss/banner';

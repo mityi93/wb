@@ -1,0 +1,9 @@
+.work 
+	.work__container.container 
+		.work__completed.grid
+			- for(var x = 0; x < 6; x++)
+				div(class="work__completed-block")
+					include ../../../img/svg/work.svg
+					div
+						span.count 40+
+						span проектов

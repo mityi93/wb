@@ -1,0 +1,10 @@
+footer.footer
+	.footer__container.container.grid 
+		.footer__container__block
+			h2.footer__container__block-user Иванов Иван
+			p.footer__container__block-copy (с) 2018. Все права защищены.
+		ul.footer__container__social
+			- for (var x = 0; x < 3; x++)
+					li.footer__container__social-item
+						a(href="#") 
+							include ../img/svg/vk.svg

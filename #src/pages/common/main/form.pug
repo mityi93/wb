@@ -1,0 +1,13 @@
+.forms
+	.forms__container.container.grid
+		section.forms__container__block
+			h2.forms__container__block-title Хотите веб-сайт?
+			p.forms__container__block-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+				|Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+		form(action="#").form
+			.form_association
+				input(type="text", name="name", placeholder="Ваше имя",required).inp-text.input-reset
+				input(type="email", name="email", placeholder="Ваш e-mail",required).inp-mail.input-reset
+			textarea(name="mess",placeholder='Сообщение',maxlength="150"
+).input-reset
+			button(type="submit").btn.btn-form.btn-reset Отправить 
